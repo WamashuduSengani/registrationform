@@ -20,7 +20,7 @@ export default function Form() {
   };
     
   
-    const handleLastName = (e) => {
+  const handleLastName = (e) => {
         setLastName(e.target.value)
         setSubmitted(false)
     }
